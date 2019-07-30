@@ -61,6 +61,7 @@ namespace RGiesecke.DllExport
         {
           case "anycpu":
             return CpuPlatform.AnyCpu;
+          case "win32":
           case "x86":
             return CpuPlatform.X86;
           case "x64":
