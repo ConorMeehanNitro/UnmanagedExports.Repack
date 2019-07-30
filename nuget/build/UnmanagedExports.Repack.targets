@@ -37,6 +37,7 @@
 			<DllExportAttributeAssemblyNameProp Condition="'$(DllExportAttributeAssemblyNameProp)' == ''">RGiesecke.DllExport.Metadata</DllExportAttributeAssemblyNameProp>
 
 			<DllExportPlatform Condition="'$(DllExportPlatform)' == ''">$(Platform)</DllExportPlatform>
+			<DllExportPlatform Condition="'$(DllExportPlatform)' == 'Win32'">x86</DllExportPlatform>
 			<DllExportPlatformTarget Condition="'$(DllExportPlatformTarget)' == ''">$(PlatformTarget)</DllExportPlatformTarget>
 			<DllExportCpuType Condition="'$(DllExportCpuType)' == ''">$(CpuType)</DllExportCpuType>
 			<DllExportEmitDebugSymbols Condition="'$(DllExportEmitDebugSymbols)' == ''">$(DebugSymbols)</DllExportEmitDebugSymbols>
